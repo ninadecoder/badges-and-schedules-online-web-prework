@@ -31,9 +31,7 @@ def assign_rooms(arr)
 end
 
 def printer(attendees)
-  badge = batch_badge_creator(attendees)
-
-  badge.each do |badges|
+  batch_badge_creator(attendees).each do |badges|
     $stdout.puts "#{badges}"
   end
 
