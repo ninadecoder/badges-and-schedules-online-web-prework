@@ -30,8 +30,8 @@ def assign_rooms(arr)
   return new_list
 end
 
-def printer(attendees)
-    badge = batch_badge_creator(attendees)
+def printer
+  badge = batch_badge_creator(attendees)
 
   badge.each do |badges|
     $stdout.puts "#{badges}"
