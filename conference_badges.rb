@@ -32,10 +32,10 @@ end
 
 def printer(attendees)
   batch_badge_creator(attendees).each do |badges|
-    $stdout.puts "#{badges}"
+    puts "#{badges}"
   end
 
   assign_rooms(attendees).each do |items|
-    $stdout.puts "#{items}"
+    puts "#{items}"
   end
 end
