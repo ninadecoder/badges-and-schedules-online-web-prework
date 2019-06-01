@@ -35,6 +35,4 @@ def printer(attendees)
     $stdout.puts "#{badges}"
   end
 
-
-
 end
