@@ -37,6 +37,6 @@ def printer(attendees)
     $stdout.puts "#{badges}"
   end
 
-  room_assign = puts assign_rooms(attendees)
+
 
 end
