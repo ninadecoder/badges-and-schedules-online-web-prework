@@ -33,7 +33,7 @@ end
 def printer(attendees)
   badge = batch_badge_creator(attendees)
 
-  badge.each_line do |badges|
+  badge.each_index do |badges|
     $stdout.puts "#{badges}"
   end
 
