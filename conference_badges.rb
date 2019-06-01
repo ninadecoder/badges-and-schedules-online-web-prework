@@ -35,4 +35,7 @@ def printer(attendees)
     $stdout.puts "#{badges}"
   end
 
+  assign_rooms(attendees).each do |items|
+    $stdout.puts "#{items}"
+  end
 end
